@@ -1,6 +1,6 @@
 # python-numerical-data-gen-tooling
 
-Toolkit for generating random numerical data for use as a part of (The Data Mine)[https://datamine.purdue.edu/] and specifically for the SpaceCOM J4 Project via the (Data Mine of the Rockies)[https://www.dataminerockies.org/].
+Toolkit for generating random numerical data for use as a part of [The Data Mine](https://datamine.purdue.edu/) and specifically for the SpaceCOM J4 Project via the [Data Mine of the Rockies](https://www.dataminerockies.org/).
 
 Questions about this project can be directed to: [James Tillman (@horaciovelvetine)](mailto:James.Tillman@colorado.edu) [Eva Pavlik](mailto:Eva.Pavlik@colorado.edu) [Vedant Sharma](mailto:Sharm792@purdue.edu)
 
