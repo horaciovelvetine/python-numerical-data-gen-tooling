@@ -2,7 +2,10 @@
 
 Toolkit for generating random numerical data for use as a part of [The Data Mine](https://datamine.purdue.edu/) and specifically for the SpaceCOM J4 Project via the [Data Mine of the Rockies](https://www.dataminerockies.org/).
 
-Questions about this project can be directed to: [James Tillman (@horaciovelvetine)](mailto:James.Tillman@colorado.edu) [Eva Pavlik](mailto:Eva.Pavlik@colorado.edu) [Vedant Sharma](mailto:Sharm792@purdue.edu)
+Questions about this project can be directed to: 
+- [James Tillman (@horaciovelvetine)](mailto:James.Tillman@colorado.edu) 
+- [Eva Pavlik](mailto:Eva.Pavlik@colorado.edu) 
+- [Vedant Sharma](mailto:Sharm792@purdue.edu)
 
 ## Requirements:
 
@@ -14,7 +17,7 @@ Questions about this project can be directed to: [James Tillman (@horaciovelveti
 - Max
 - Mean
 - Distribution
-- Standard Deviation 
+- Standard Deviation
 
 ### Distribution(s)
 
@@ -41,7 +44,7 @@ From: `Facility Condition Index`
 - The `key` tab contained some life expectancy data which has been included in 2 lists containing the relevant data for convenience:
   - `./const/facility_life_expectancy.py`
   - `./const/systems_life_expectancy.py`
-- Theres a note "Current date - age" in the `Facility Condition Index` tab but it was unclear what the intention of this note was. 
+- Theres a note "Current date - age" in the `Facility Condition Index` tab but it was unclear what the intention of this note was.
 
 #### Condition Index:
 
@@ -61,3 +64,80 @@ From the spreadsheet: "Calculate 10 years of prior Condition data collected at m
 #### Facility Number:
 
 Unclear if this truly a numerical piece of data or if these are known designations. For now leave this as a possible future need.
+
+## Python Project Setup:
+
+Setup with Python virtual `venv` to utilize Black for code formatting.
+
+### Commands:
+
+**On startup activate the Python enviornment using:**
+
+```bash
+source venv/bin/activate
+```
+
+**Deactivate the virtual enviornment using:**
+
+```bash
+deactivate
+```
+
+**Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+**Code formatting using Black:**
+
+Black is configured in the [pyproject.toml]('./../pyproject.toml'):
+
+- Line length is set to 88
+- Targets Python 3.11
+
+```bash
+black path/to/file.py # Format single file
+black . # Format all files
+black --check . # Check files w/o formatting
+black src/ # Format specific directories
+```
+
+**Import soring using isort:**
+
+```bash
+isort path/to/file.py # Sort single file imports
+isort . # Sort project imports
+```
+
+**Run Pytest(s):**
+
+```bash
+pytest
+```
+
+### Makefile Aggregate Commands:
+
+Commands defined in the [Makefile]('./../Makefile').
+
+| Command       | Description                             |
+|---------------|-----------------------------------------|
+| `make format` | Format all Python files with Black      |
+| `make lint`   | Run flake8 linter                       |
+| `make check`  | Check formatting without making changes |
+| `make test`   | Run pytest                              |
+| `make all`    | Format and lint code                    |
+| `make clean`  | Remove Python cache files               |
+
+### VS Code Setup:
+
+Install the "Black Formatter" extension and add to your `.vscode/settings.json`:
+
+```json
+{
+	"python.formatting.provider": "black",
+	"editor.formatOnSave": true,
+	"python.linting.enabled": true,
+	"python.linting.flake8Enabled": true
+}
+```
