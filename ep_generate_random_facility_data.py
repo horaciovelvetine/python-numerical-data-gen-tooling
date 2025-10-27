@@ -5,10 +5,10 @@ Provides get_random_facility_data_nums_ep(...) and imports local ep_func helpers
 from const.facility_life_expectancy import FacilityLifeExpectancy
 from models.facility import Facility
 
-from ep_func.ep_rnd_age import ep_rnd_age
-from ep_func.ep_rnd_condition_index import ep_rnd_condition_index
-from ep_func.ep_agent_simulator import ep_agent_simulator
-from ep_func.ep_estimate_remaining_service_life import ep_estimate_remaining_service_life
+from ep_rnd_age import ep_rnd_age
+from ep_rnd_condition_index import ep_rnd_condition_index
+from ep_agent_simulator import ep_agent_simulator
+from ep_estimate_remaining_service_life import ep_estimate_remaining_service_life
 
 
 def get_random_facility_data_nums_ep(facility_title: str, n_agents: int = 200, months_horizon: int = 120, seed: int | None = None) -> Facility:
@@ -54,12 +54,28 @@ def get_random_facility_data_nums_ep(facility_title: str, n_agents: int = 200, m
     median_remaining_years = max(0.0, median_remaining_months / 12.0)
 
     years = {}
-    max_years = min(months_horizon // 12, 10)
-    for y in range(max_years + 1):
-        start = y * 12
-        end = start + 11
-        vals = [v for m, v in median_months.items() if start <= m <= end]
-        years[y] = round(sum(vals) / len(vals), 3) if vals else None
+    
+    # Get the range of months that actually have data
+    if median_months:
+        min_month = min(median_months.keys())
+        max_month = max(median_months.keys())
+        
+        # Calculate the year range based on actual data
+        start_year = min_month // 12
+        end_year = max_month // 12
+        
+        # Generate yearly aggregates for years that have data
+        for y in range(start_year, end_year + 1):
+            month_start = y * 12
+            month_end = month_start + 11
+            vals = [v for m, v in median_months.items() if month_start <= m <= month_end]
+            years[y] = round(sum(vals) / len(vals), 3) if vals else None
+    
+    # Also create empty entries for years 0 through start_year-1 if needed for consistency
+    if median_months:
+        min_data_year = min_month // 12
+        for y in range(0, min_data_year):
+            years[y] = None
 
     time_series = {'months': median_months, 'year': years}
 
