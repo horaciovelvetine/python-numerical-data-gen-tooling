@@ -174,7 +174,7 @@ def run_performance_test():
     print("\n⚡ PERFORMANCE TEST")
     print("=" * 50)
     
-    facility_title = "Office Building"
+    facility_title = "Admin Office"  # Changed from "Office Building" to valid title
     agent_counts = [50, 100, 200, 500]
     
     performance_results = []

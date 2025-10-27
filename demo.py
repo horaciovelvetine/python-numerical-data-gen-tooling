@@ -3,14 +3,8 @@
 Demo script to show how to run the facility data generation simulation.
 """
 
-import sys
-import os
 import json
-
-# Add src directory to the path so we can import modules
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
-
-from main import get_random_facility_data_nums
+from ep_generate_random_facility_data import get_random_facility_data_nums_ep
 from const.facility_life_expectancy import FacilityLifeExpectancy
 
 
@@ -19,7 +13,7 @@ def demo_single_facility(facility_title: str):
     print(f"\n=== Generating data for: {facility_title} ===")
     
     try:
-        facility = get_random_facility_data_nums(facility_title)
+        facility = get_random_facility_data_nums_ep(facility_title)
         
         print(f"Facility: {facility.title}")
         print(f"Age: {facility.age_in_years} years")
@@ -34,14 +28,19 @@ def demo_single_facility(facility_title: str):
                 print(f"  Yearly data points: {len(years)}")
                 for year in years:
                     condition = facility.time_series['year'][year]
-                    print(f"    Year {year}: {condition:.2f}")
+                    if condition is not None:
+                        print(f"    Year {year}: {condition:.2f}")
             
             if 'months' in facility.time_series:
                 months = sorted(facility.time_series['months'].keys())
                 print(f"  Monthly data points: {len(months)}")
-                for month in months:
+                # Show only first few months to avoid too much output
+                for month in months[:5]:
                     condition = facility.time_series['months'][month]
-                    print(f"    Month {month}: {condition:.2f}")
+                    if condition is not None:
+                        print(f"    Month {month}: {condition:.2f}")
+                if len(months) > 5:
+                    print(f"    ... and {len(months) - 5} more monthly data points")
         
         return facility
         

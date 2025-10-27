@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
 """
-Simple example of using the main.py functions directly.
+Simple example of using the facility data generation functions directly.
 """
 
-import sys
-import os
-
-# Add src directory to the path so we can import modules
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
-
-from main import get_random_facility_data_nums
+from ep_generate_random_facility_data import get_random_facility_data_nums_ep
 
 # Generate data for a Data Center
-facility = get_random_facility_data_nums("Data Center")
+facility = get_random_facility_data_nums_ep("Data Center")
 
 print("Generated facility data:")
 print(f"Title: {facility.title}")
