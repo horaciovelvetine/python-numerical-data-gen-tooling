@@ -1,0 +1,81 @@
+import numpy as np
+import pandas as pd
+
+# Example facility data: (facility label, tier)
+FACILITIES = [
+    {"title": "FacilityA", "tier": "T1"},
+    {"title": "FacilityB", "tier": "T2"},
+    {"title": "FacilityC", "tier": "T1"}
+]
+
+# Example system definitions: systems group facilities
+SYSTEMS = {
+    "SystemAlpha": ["FacilityA", "FacilityB"],
+    "SystemBeta": ["FacilityC"]
+}
+
+DEGRADED_PROB = 0.35  # Probability for degraded state
+
+def generate_condition_index(degraded_prob=DEGRADED_PROB):
+    """Returns a condition index, with 35% chance for a 'degraded' state."""
+    is_degraded = np.random.choice([True, False], p=[degraded_prob, 1 - degraded_prob])
+    if is_degraded:
+        return np.random.uniform(0.3, 0.7)  # Degraded condition index [arbitrary range]
+    else:
+        return np.random.uniform(0.7, 1.0)  # Normal condition index
+
+def parse_facility_label(label):
+    """Parse label into base name and tier. Handles 'FacilityX_T1', 'FacilityX_T2', etc."""
+    parts = label.split('_')
+    if len(parts) == 2 and parts[1].startswith("T"):
+        return parts[0], parts[1]
+    elif len(parts) == 1:
+        return parts[0], "T1"  # Default tier if none supplied
+    else:
+        raise ValueError(f"Unrecognized facility label structure: {label}")
+
+def generate_facility_data(facility_label, degraded_prob=DEGRADED_PROB):
+    """Generate data for a facility, recognizing tier and assigning condition index."""
+    base, tier = parse_facility_label(facility_label)
+    condition_index = generate_condition_index(degraded_prob)
+    data = {
+        "facility": base,
+        "tier": tier,
+        "condition_index": condition_index
+    }
+    return data
+
+def generate_system_data(system_label, degraded_prob=DEGRADED_PROB):
+    """Aggregate data for all facilities in a system."""
+    if system_label not in SYSTEMS:
+        raise ValueError(f"Unknown system label: {system_label}")
+    rows = []
+    for facility_base in SYSTEMS[system_label]:
+        # Automatically handle facilities with various tiers; append default if needed
+        for tier in ["T1", "T2"]:
+            label = f"{facility_base}_{tier}"
+            try:
+                row = generate_facility_data(label, degraded_prob)
+                rows.append(row)
+            except ValueError:
+                continue  # Skip if label format not recognized or facility not defined for that tier
+    df = pd.DataFrame(rows)
+    return df
+
+def flexible_distribution_rng(ranges, probabilities):
+    """Generate value according to flexible ranges and probability weighting."""
+    chosen_idx = np.random.choice(range(len(probabilities)), p=probabilities)
+    rng = ranges[chosen_idx]
+    return np.random.uniform(rng[0], rng[1])
+
+# Example usage:
+if __name__ == "__main__":
+    # Generate facility data (with various tiers)
+    print(generate_facility_data("FacilityA_T1"))
+    print(generate_facility_data("FacilityB_T2"))
+    # Generate system aggregated data
+    print(generate_system_data("SystemAlpha"))
+    # Flexible distribution example
+    ranges = [(0, 0.5), (0.5, 1), (1, 1.5)]
+    probabilities = [0.6, 0.2, 0.2]
+    print(flexible_distribution_rng(ranges, probabilities))
