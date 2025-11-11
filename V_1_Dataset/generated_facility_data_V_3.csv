@@ -1,0 +1,1001 @@
+facility_number,facility_type,age_years,expected_life_years,condition_index,remaining_service_life,year_constructed
+6163,Antenna support building,30,30,4,0.0,1995
+3794,UPS Building,19,50,70,31.0,2006
+9969,Communication Facility,35,60,70,21.12,1990
+4805,Water Treatment Facility,30,30,96,0.0,1995
+3182,Storage Facility,17,60,70,39.28,2008
+2105,Heating - Cooling Plant,34,60,70,28.39,1991
+7183,Pump Station,36,40,69,0.0,1989
+7232,Fuel Farm,20,40,70,23.51,2005
+4518,Admin Office,22,40,70,19.53,2003
+6714,Central Utility Plant,24,50,70,28.52,2001
+2538,Power generation Facility,24,60,70,25.59,2001
+7176,Dorm Facility,45,50,70,2.49,1980
+3581,Admin Office,13,40,70,29.13,2012
+2120,Dorm Facility,34,50,88,19.47,1991
+2962,Water Treatment Facility,5,30,70,32.96,2020
+271,Antenna support building,5,30,70,19.03,2020
+4888,Standby Generator,29,30,70,0.0,1996
+4594,Fuel Farm,28,40,70,18.02,1997
+1816,Switching Station,30,30,70,6.88,1995
+354,Power generation Facility,4,60,71,48.6,2021
+2174,Ops Facility T1,23,50,70,28.47,2002
+3179,Data Center,40,40,70,4.03,1985
+8805,Ops Facility T1,47,50,70,11.09,1978
+5499,Fuel intake Facility,30,30,70,1.66,1995
+6952,Storage Facility,20,60,70,38.52,2005
+1605,Admin Office,38,40,70,4.71,1987
+7528,Substation,30,30,70,0.0,1995
+6997,Ground monitoring Station,21,30,70,13.54,2004
+9995,Radome Facility,30,30,70,0.0,1995
+8250,Pump Station,33,40,90,3.69,1992
+8820,Ground Terminal T1,27,30,70,4.51,1998
+5320,Data Center,15,40,70,30.4,2010
+1346,Communication Facility,58,60,70,9.29,1967
+6507,Standby Generator,30,30,70,3.56,1995
+2004,Fuel Building,13,50,70,25.69,2012
+6469,UPS Building,50,50,70,0.0,1975
+7242,Receiver Station,30,30,70,0.0,1995
+7255,Truck fill stand,30,30,70,0.0,1995
+5182,Fuel Building,35,50,70,8.47,1990
+1224,Communication Facility,3,60,86,55.24,2022
+8445,Maintenance Shop,22,40,70,22.55,2003
+3933,Antenna support building,10,30,70,24.54,2015
+7842,Pump Station,37,40,70,3.73,1988
+6737,Fuel Building,10,50,43,40.98,2015
+7584,Storage Facility,21,60,70,34.78,2004
+6771,Storage Facility,33,60,70,26.44,1992
+158,Fuel intake Facility,26,30,70,0.0,1999
+5496,Switching Station,29,30,70,0.87,1996
+8748,Dorm Facility,27,50,70,18.15,1998
+1122,Substation,28,30,70,0.0,1997
+256,Radome Facility,30,30,70,0.0,1995
+7839,Ops Facility T1,12,50,70,26.82,2013
+2545,Central Utility Plant,36,50,70,20.4,1989
+2232,UPS Building,24,50,70,26.08,2001
+2119,Communication Facility,11,60,70,52.39,2014
+3021,Pump Station,23,40,70,11.0,2002
+7523,Receiver Station,26,30,16,4.13,1999
+6683,Ops Facility T1,23,50,32,28.47,2002
+6844,Substation,29,30,96,0.0,1996
+2762,Utility corridor,32,60,70,31.15,1993
+8034,Fuel Farm,25,40,70,13.39,2000
+8974,Ops Facility T1,41,50,71,11.17,1984
+4725,Central Utility Plant,47,50,70,0.07,1978
+7691,Equipment Pad,20,20,70,0.0,2005
+943,Switching Station,30,30,70,0.0,1995
+1810,Fuel Building,19,50,70,37.83,2006
+5800,Dorm Facility,49,50,70,0.0,1976
+8159,Switching Station,30,30,70,0.0,1995
+1573,Dorm Facility,15,50,99,28.92,2010
+2079,UPS Building,12,50,70,34.72,2013
+9430,Standby Generator,25,30,70,4.01,2000
+4672,Admin Office,35,40,70,9.72,1990
+6446,Substation,26,30,70,5.53,1999
+1298,Maintenance Shop,34,40,70,0.0,1991
+7577,Fuel Farm,31,40,70,17.27,1994
+9463,Maintenance Shop,14,40,70,20.58,2011
+1456,Truck fill stand,4,30,70,26.51,2021
+6185,Power generation Facility,24,60,70,21.65,2001
+9812,Water Treatment Facility,22,30,70,16.4,2003
+334,Antenna support building,3,30,70,35.32,2022
+8177,Water Treatment Facility,30,30,70,0.53,1995
+7770,Water Treatment Facility,21,30,70,16.61,2004
+2448,Storage Facility,45,60,70,18.81,1980
+6307,Equipment Pad,20,20,86,9.27,2005
+1587,Storage Facility,19,60,70,45.02,2006
+7932,Heating - Cooling Plant,22,60,70,37.32,2003
+233,Fuel intake Facility,13,30,70,7.76,2012
+2870,Radome Facility,22,30,70,14.24,2003
+3376,Receiver Station,22,30,70,11.11,2003
+903,Admin Office,37,40,70,8.99,1988
+3574,Antenna support building,16,30,70,23.55,2009
+2391,Maintenance Shop,29,40,70,11.61,1996
+7083,Fuel intake Facility,30,30,70,0.0,1995
+3340,Communication Facility,56,60,17,0.0,1969
+8498,Fuel intake Facility,28,30,70,0.0,1997
+4468,UPS Building,13,50,70,25.96,2012
+662,Truck fill stand,14,30,70,15.85,2011
+4088,Dorm Facility,15,50,70,42.63,2010
+5056,Dorm Facility,40,50,70,0.0,1985
+513,Water Treatment Facility,20,30,71,3.84,2005
+5548,Fuel intake Facility,30,30,31,0.0,1995
+9610,Equipment Pad,20,20,70,0.5,2005
+9218,Substation,23,30,70,4.71,2002
+9651,Standby Generator,25,30,70,6.9,2000
+6083,Fuel intake Facility,14,30,87,12.82,2011
+3691,Fuel Farm,27,40,70,19.6,1998
+4982,Pump Station,8,40,70,22.79,2017
+6697,Fuel intake Facility,29,30,70,3.71,1996
+337,Power generation Facility,13,60,70,51.54,2012
+5093,Entry control point,18,30,89,9.26,2007
+7305,Ops Facility T1,35,50,70,7.74,1990
+416,UPS Building,21,50,70,30.03,2004
+4495,Ops Facility T1,49,50,70,0.95,1976
+4291,Entry control point,30,30,70,0.0,1995
+5566,Radome Facility,30,30,70,0.0,1995
+6628,Standby Generator,16,30,70,9.35,2009
+1221,Heating - Cooling Plant,37,60,70,27.06,1988
+5038,Power generation Facility,16,60,70,37.44,2009
+5806,UPS Building,5,50,70,47.32,2020
+9028,Storage Facility,32,60,70,25.94,1993
+3703,Fuel Farm,31,40,70,7.83,1994
+3024,Heating - Cooling Plant,25,60,70,32.65,2000
+5553,Switching Station,23,30,70,9.51,2002
+656,Ground monitoring Station,30,30,70,6.5,1995
+9225,Ground monitoring Station,16,30,70,11.18,2009
+7203,Substation,13,30,70,17.42,2012
+4861,UPS Building,44,50,70,7.11,1981
+6220,Fuel Building,29,50,70,26.2,1996
+4760,Pump Station,27,40,70,13.42,1998
+9493,Radome Facility,18,30,71,2.31,2007
+673,Communication Facility,19,60,70,42.86,2006
+5515,Entry control point,30,30,70,1.83,1995
+1282,Storage Facility,56,60,70,8.24,1969
+1642,Water Treatment Facility,30,30,70,0.0,1995
+257,Fuel intake Facility,9,30,70,28.63,2016
+8690,Radome Facility,15,30,70,18.63,2010
+6308,Entry control point,20,30,70,12.32,2005
+6277,Receiver Station,2,30,70,24.44,2023
+7595,Radome Facility,20,30,70,11.45,2005
+7742,Maintenance Shop,29,40,70,16.72,1996
+528,Power generation Facility,43,60,70,21.11,1982
+7123,Storage Facility,21,60,70,35.36,2004
+3469,Truck fill stand,22,30,70,17.48,2003
+1277,Radome Facility,27,30,70,8.82,1998
+3812,Switching Station,30,30,70,0.0,1995
+2365,Radome Facility,15,30,70,7.99,2010
+3167,Water Treatment Facility,3,30,70,32.5,2022
+853,Antenna support building,30,30,70,0.0,1995
+4562,Standby Generator,30,30,23,4.16,1995
+7679,Data Center,30,40,70,15.63,1995
+8221,Radome Facility,1,30,70,29.44,2024
+1521,Communication Facility,39,60,70,20.12,1986
+1403,Utility corridor,24,60,70,34.93,2001
+4901,Heating - Cooling Plant,26,60,70,21.51,1999
+1774,Ground monitoring Station,28,30,97,8.04,1997
+219,Pump Station,30,40,70,17.13,1995
+3432,Standby Generator,30,30,70,1.56,1995
+7131,Maintenance Shop,20,40,3,17.81,2005
+9770,Ground monitoring Station,20,30,70,5.86,2005
+9211,Equipment Pad,2,20,70,16.53,2023
+3309,Equipment Pad,20,20,70,3.05,2005
+5558,Ops Facility T1,21,50,70,19.21,2004
+1919,Equipment Pad,20,20,70,3.94,2005
+876,Storage Facility,60,60,94,3.72,1965
+6327,Truck fill stand,27,30,70,5.9,1998
+2770,Power generation Facility,58,60,70,3.1,1967
+5488,Data Center,32,40,70,6.1,1993
+9619,Data Center,10,40,97,30.42,2015
+318,Antenna support building,21,30,70,5.4,2004
+1097,Fuel Building,34,50,70,11.92,1991
+1056,Truck fill stand,28,30,70,0.75,1997
+4283,Receiver Station,24,30,70,3.93,2001
+9724,Fuel Building,49,50,70,2.86,1976
+7999,Maintenance Shop,31,40,70,12.03,1994
+2880,Ops Facility T1,26,50,70,20.73,1999
+6214,Dorm Facility,26,50,95,16.52,1999
+2587,Substation,30,30,70,5.02,1995
+3428,Truck fill stand,30,30,71,0.0,1995
+965,Standby Generator,13,30,70,23.03,2012
+2063,Antenna support building,2,30,70,22.27,2023
+1697,Equipment Pad,20,20,98,0.71,2005
+8441,Entry control point,23,30,70,4.48,2002
+7601,Substation,30,30,70,0.0,1995
+6821,Pump Station,15,40,70,32.01,2010
+5445,Switching Station,10,30,70,20.78,2015
+8899,Power generation Facility,4,60,70,61.84,2021
+6074,Substation,30,30,70,0.0,1995
+1285,Communication Facility,29,60,70,31.59,1996
+5094,Switching Station,30,30,1,0.0,1995
+8269,Pump Station,31,40,28,9.37,1994
+8324,Ops Facility T1,33,50,70,18.64,1992
+583,Fuel Farm,20,40,70,26.39,2005
+5789,Fuel Farm,40,40,70,0.0,1985
+6934,Ground monitoring Station,30,30,70,0.0,1995
+1924,Radome Facility,26,30,70,10.58,1999
+4427,Dorm Facility,8,50,70,43.87,2017
+2423,Water Treatment Facility,23,30,71,6.71,2002
+3928,Storage Facility,32,60,70,17.87,1993
+4150,Water Treatment Facility,4,30,70,24.94,2021
+3796,Data Center,20,40,70,31.04,2005
+9950,Entry control point,27,30,70,3.89,1998
+8533,Dorm Facility,49,50,70,9.48,1976
+6960,Utility corridor,15,60,70,48.8,2010
+5087,UPS Building,21,50,70,33.82,2004
+5951,Receiver Station,28,30,70,0.0,1997
+4788,Data Center,13,40,70,31.83,2012
+9678,Substation,13,30,70,18.11,2012
+3851,Ops Facility T1,38,50,8,9.74,1987
+7093,Ground Terminal T1,30,30,70,0.0,1995
+1076,Radome Facility,30,30,70,0.2,1995
+3708,Ground monitoring Station,28,30,70,1.16,1997
+4288,Heating - Cooling Plant,17,60,70,45.65,2008
+5956,Ground monitoring Station,5,30,70,21.32,2020
+4399,Central Utility Plant,32,50,70,24.59,1993
+662,Fuel intake Facility,30,30,70,0.53,1995
+7316,UPS Building,41,50,70,6.3,1984
+9094,Admin Office,32,40,70,12.09,1993
+6472,Admin Office,38,40,70,4.21,1987
+5582,Fuel Farm,23,40,70,19.23,2002
+2342,Fuel Farm,13,40,70,24.57,2012
+2558,Standby Generator,25,30,70,10.79,2000
+4602,Substation,19,30,70,17.26,2006
+3856,Truck fill stand,30,30,70,0.0,1995
+6283,Switching Station,30,30,70,4.92,1995
+7213,Standby Generator,23,30,70,10.79,2002
+280,Fuel Building,23,50,70,22.76,2002
+8096,Ground Terminal T1,21,30,70,8.29,2004
+5330,Antenna support building,4,30,70,21.79,2021
+7448,Standby Generator,24,30,70,2.44,2001
+4308,Truck fill stand,21,30,33,9.05,2004
+3673,Heating - Cooling Plant,30,60,70,25.26,1995
+8544,Data Center,38,40,70,0.0,1987
+4331,Ground monitoring Station,30,30,70,1.82,1995
+7839,Ops Facility T1,3,50,70,48.67,2022
+5762,Admin Office,22,40,70,17.79,2003
+2953,Fuel Building,19,50,99,27.9,2006
+1270,Central Utility Plant,11,50,70,38.66,2014
+6165,Dorm Facility,22,50,70,29.24,2003
+2169,Heating - Cooling Plant,5,60,70,58.26,2020
+7715,Fuel intake Facility,14,30,70,13.26,2011
+1974,Dorm Facility,16,50,70,37.4,2009
+7432,Storage Facility,28,60,70,22.83,1997
+1800,Substation,30,30,70,0.0,1995
+4573,Ground monitoring Station,28,30,70,0.0,1997
+8492,Central Utility Plant,45,50,70,11.22,1980
+7878,Pump Station,31,40,70,8.57,1994
+4027,Water Treatment Facility,30,30,70,0.0,1995
+1424,Receiver Station,29,30,70,3.01,1996
+7825,Dorm Facility,17,50,70,36.35,2008
+5648,Truck fill stand,24,30,70,3.78,2001
+8983,Radome Facility,24,30,71,4.76,2001
+6060,Admin Office,39,40,70,5.86,1986
+8990,Data Center,34,40,70,17.03,1991
+9364,Fuel Farm,7,40,70,35.01,2018
+3730,Storage Facility,22,60,70,37.61,2003
+1839,Fuel intake Facility,5,30,70,24.19,2020
+2192,Dorm Facility,16,50,70,33.48,2009
+8146,Switching Station,30,30,70,0.87,1995
+2275,Fuel Building,43,50,70,7.92,1982
+182,Equipment Pad,19,20,70,7.68,2006
+9800,Truck fill stand,17,30,70,9.72,2008
+6051,Fuel Farm,30,40,95,12.49,1995
+4120,Maintenance Shop,25,40,70,14.54,2000
+6016,Storage Facility,6,60,70,46.19,2019
+9190,Power generation Facility,36,60,70,33.0,1989
+2329,Ground Terminal T1,23,30,70,5.77,2002
+8186,Truck fill stand,30,30,70,0.58,1995
+7188,Water Treatment Facility,22,30,70,9.55,2003
+3401,Ops Facility T1,17,50,70,30.96,2008
+57,Ground monitoring Station,23,30,44,12.42,2002
+6950,Truck fill stand,29,30,70,0.0,1996
+5984,Truck fill stand,30,30,70,3.26,1995
+7212,Central Utility Plant,20,50,70,34.63,2005
+8917,Maintenance Shop,10,40,70,23.93,2015
+8378,Power generation Facility,11,60,46,63.01,2014
+258,Fuel Farm,26,40,29,17.52,1999
+7799,Admin Office,27,40,70,13.36,1998
+7507,Radome Facility,27,30,71,8.42,1998
+988,Fuel Farm,28,40,70,13.86,1997
+7562,Radome Facility,18,30,70,14.54,2007
+5971,Utility corridor,30,60,70,22.83,1995
+6649,Maintenance Shop,22,40,70,14.3,2003
+7012,Admin Office,33,40,70,1.07,1992
+1773,Truck fill stand,30,30,70,0.58,1995
+8467,UPS Building,12,50,70,36.42,2013
+8486,Standby Generator,12,30,70,20.95,2013
+1223,Central Utility Plant,34,50,70,13.86,1991
+8009,Antenna support building,18,30,70,12.63,2007
+6815,UPS Building,25,50,70,27.4,2000
+5573,Fuel intake Facility,30,30,70,1.02,1995
+5747,Heating - Cooling Plant,20,60,70,35.64,2005
+764,Maintenance Shop,18,40,7,19.69,2007
+2168,Dorm Facility,21,50,70,35.77,2004
+8579,Water Treatment Facility,27,30,70,7.9,1998
+553,Pump Station,12,40,70,25.69,2013
+8320,Truck fill stand,27,30,70,3.5,1998
+1016,Entry control point,30,30,70,0.0,1995
+1067,Water Treatment Facility,14,30,70,14.98,2011
+2161,Maintenance Shop,37,40,1,6.56,1988
+5135,Maintenance Shop,13,40,29,25.74,2012
+1751,Receiver Station,30,30,70,6.89,1995
+1560,Ground Terminal T1,23,30,70,8.66,2002
+5470,Antenna support building,22,30,37,4.46,2003
+7699,Standby Generator,16,30,3,13.37,2009
+9053,Fuel Farm,27,40,70,15.97,1998
+2828,Central Utility Plant,39,50,70,7.42,1986
+9144,Substation,30,30,70,0.0,1995
+9986,Receiver Station,13,30,70,14.05,2012
+1516,Water Treatment Facility,29,30,5,6.42,1996
+1396,Substation,26,30,70,6.84,1999
+8294,Utility corridor,24,60,70,38.0,2001
+2145,Heating - Cooling Plant,53,60,96,11.4,1972
+1235,Entry control point,16,30,70,14.54,2009
+1645,Central Utility Plant,43,50,96,13.85,1982
+8507,Standby Generator,23,30,69,0.28,2002
+56,Ground Terminal T1,14,30,70,11.7,2011
+6598,Utility corridor,44,60,70,16.49,1981
+1338,Ops Facility T1,17,50,44,36.76,2008
+8698,Dorm Facility,24,50,70,23.05,2001
+1849,Truck fill stand,22,30,70,11.7,2003
+5708,Water Treatment Facility,22,30,71,8.68,2003
+687,Ground Terminal T1,10,30,9,20.17,2015
+4144,Switching Station,30,30,70,2.03,1995
+7449,Maintenance Shop,30,40,70,12.08,1995
+2365,Standby Generator,23,30,70,6.92,2002
+1068,Radome Facility,11,30,70,15.05,2014
+2491,Radome Facility,21,30,71,10.11,2004
+1365,Fuel Farm,38,40,70,0.0,1987
+9235,Truck fill stand,27,30,70,9.51,1998
+1855,Truck fill stand,21,30,70,3.64,2004
+3537,Substation,18,30,70,9.8,2007
+1269,Communication Facility,16,60,70,36.07,2009
+4958,Utility corridor,32,60,70,33.17,1993
+6876,Water Treatment Facility,26,30,70,0.0,1999
+326,Maintenance Shop,40,40,70,0.39,1985
+6787,Storage Facility,49,60,70,4.23,1976
+4339,Admin Office,38,40,47,0.0,1987
+6705,Standby Generator,30,30,70,0.0,1995
+9652,Storage Facility,30,60,70,29.96,1995
+5458,Truck fill stand,30,30,70,0.63,1995
+9688,Ops Facility T1,15,50,70,30.64,2010
+8995,Radome Facility,30,30,70,11.32,1995
+6770,Fuel Building,22,50,70,22.16,2003
+2245,Entry control point,2,30,70,28.9,2023
+5853,Data Center,25,40,70,8.78,2000
+8345,Maintenance Shop,21,40,70,22.17,2004
+9122,Dorm Facility,37,50,70,14.61,1988
+5270,Central Utility Plant,14,50,70,34.79,2011
+3684,Maintenance Shop,29,40,70,4.65,1996
+131,Water Treatment Facility,30,30,70,0.0,1995
+6646,Power generation Facility,6,60,70,47.86,2019
+2075,Radome Facility,21,30,70,15.9,2004
+5449,Communication Facility,21,60,70,37.78,2004
+6786,Admin Office,38,40,70,0.0,1987
+9299,Data Center,33,40,70,10.72,1992
+1607,Entry control point,20,30,88,8.12,2005
+2857,Pump Station,10,40,6,32.99,2015
+3773,Data Center,3,40,70,32.76,2022
+2833,Dorm Facility,38,50,70,10.72,1987
+9831,Switching Station,28,30,70,0.0,1997
+559,Ops Facility T1,17,50,70,29.58,2008
+9831,Switching Station,30,30,70,0.0,1995
+6288,Ground Terminal T1,21,30,70,12.34,2004
+1438,Radome Facility,17,30,70,14.26,2008
+569,UPS Building,47,50,70,6.34,1978
+8516,Equipment Pad,11,20,70,4.67,2014
+481,Antenna support building,30,30,70,0.0,1995
+5025,Power generation Facility,58,60,70,8.58,1967
+6473,Fuel intake Facility,30,30,70,9.76,1995
+6747,Antenna support building,10,30,70,12.33,2015
+9391,Radome Facility,30,30,70,12.98,1995
+6996,Entry control point,30,30,70,0.0,1995
+2132,Communication Facility,20,60,70,37.13,2005
+4816,Central Utility Plant,43,50,28,6.38,1982
+8185,Dorm Facility,17,50,70,37.71,2008
+8517,Ops Facility T1,47,50,87,0.0,1978
+9694,Ground Terminal T1,30,30,70,8.27,1995
+8265,Communication Facility,30,60,70,38.31,1995
+9063,Central Utility Plant,2,50,70,52.92,2023
+2752,Communication Facility,16,60,70,47.31,2009
+3994,Fuel Farm,20,40,70,18.18,2005
+4440,Fuel Farm,24,40,70,16.85,2001
+9005,Receiver Station,28,30,70,5.9,1997
+8293,Standby Generator,21,30,15,0.0,2004
+1643,Receiver Station,12,30,70,10.55,2013
+7104,Data Center,15,40,70,23.86,2010
+8885,Central Utility Plant,40,50,69,8.89,1985
+1901,Switching Station,27,30,25,11.6,1998
+3737,Ground Terminal T1,20,30,70,6.68,2005
+2808,Heating - Cooling Plant,41,60,70,19.1,1984
+2713,Equipment Pad,20,20,69,3.76,2005
+9172,Ground monitoring Station,30,30,70,0.0,1995
+8257,Heating - Cooling Plant,42,60,47,12.9,1983
+9152,Data Center,10,40,70,32.11,2015
+7994,Fuel Building,2,50,70,52.19,2023
+2012,Equipment Pad,11,20,70,12.01,2014
+7166,Radome Facility,15,30,70,8.87,2010
+9183,Data Center,20,40,96,20.28,2005
+986,Data Center,8,40,20,32.88,2017
+378,Truck fill stand,10,30,70,16.75,2015
+948,Storage Facility,8,60,70,47.63,2017
+6107,Heating - Cooling Plant,25,60,23,34.72,2000
+7220,Pump Station,23,40,70,11.26,2002
+1584,Antenna support building,30,30,70,0.0,1995
+5084,Data Center,28,40,70,18.25,1997
+3734,Pump Station,30,40,70,1.36,1995
+5280,Entry control point,6,30,70,27.08,2019
+2156,Power generation Facility,13,60,70,46.14,2012
+38,Pump Station,21,40,70,19.7,2004
+3610,UPS Building,4,50,70,48.05,2021
+407,Ground monitoring Station,30,30,70,4.94,1995
+1055,Admin Office,22,40,70,18.2,2003
+4478,Substation,1,30,70,36.81,2024
+126,Standby Generator,7,30,70,15.94,2018
+787,Pump Station,15,40,27,22.63,2010
+6086,Water Treatment Facility,30,30,70,0.99,1995
+6127,Equipment Pad,20,20,70,0.0,2005
+9871,Equipment Pad,20,20,99,0.0,2005
+4816,Truck fill stand,26,30,69,3.57,1999
+8658,Truck fill stand,23,30,70,0.0,2002
+5458,Dorm Facility,36,50,70,12.77,1989
+6756,Pump Station,10,40,70,39.8,2015
+5670,UPS Building,44,50,37,10.54,1981
+6585,Water Treatment Facility,28,30,70,0.0,1997
+1820,Heating - Cooling Plant,34,60,70,25.38,1991
+1207,Storage Facility,35,60,70,26.61,1990
+9662,Receiver Station,24,30,70,12.86,2001
+8317,Communication Facility,22,60,70,39.62,2003
+208,Switching Station,16,30,70,19.04,2009
+9386,Heating - Cooling Plant,60,60,70,5.98,1965
+297,Storage Facility,6,60,70,47.1,2019
+8875,Equipment Pad,20,20,95,5.16,2005
+2367,Admin Office,25,40,70,7.84,2000
+7015,Power generation Facility,17,60,70,39.14,2008
+6949,Data Center,33,40,70,4.79,1992
+611,Radome Facility,27,30,70,8.47,1998
+7462,Standby Generator,30,30,2,1.66,1995
+5540,UPS Building,41,50,70,9.5,1984
+4595,Storage Facility,29,60,70,30.5,1996
+456,Substation,18,30,70,15.11,2007
+2591,Central Utility Plant,18,50,70,23.39,2007
+9365,Dorm Facility,26,50,70,32.03,1999
+2360,Admin Office,29,40,70,11.29,1996
+5700,Central Utility Plant,32,50,70,10.41,1993
+1935,Storage Facility,11,60,70,42.07,2014
+2416,Pump Station,33,40,70,7.32,1992
+5206,Entry control point,1,30,70,22.46,2024
+5231,Antenna support building,28,30,70,0.0,1997
+9986,UPS Building,31,50,99,20.81,1994
+489,Ops Facility T1,16,50,70,36.91,2009
+3200,Ground Terminal T1,30,30,70,0.0,1995
+8348,Ops Facility T1,31,50,70,18.77,1994
+7624,Fuel Farm,40,40,70,0.0,1985
+1535,Admin Office,15,40,70,27.72,2010
+6165,Water Treatment Facility,19,30,70,8.78,2006
+5281,Maintenance Shop,8,40,70,43.12,2017
+8490,Maintenance Shop,28,40,70,19.06,1997
+4615,Utility corridor,30,60,90,22.52,1995
+9230,Receiver Station,27,30,69,1.3,1998
+6574,Fuel intake Facility,30,30,70,0.58,1995
+4285,Pump Station,11,40,70,38.62,2014
+3836,Standby Generator,15,30,21,13.46,2010
+9018,Truck fill stand,28,30,96,0.0,1997
+4353,Storage Facility,18,60,70,35.36,2007
+4141,Fuel Farm,24,40,70,14.39,2001
+9956,Standby Generator,30,30,70,0.0,1995
+3534,Power generation Facility,24,60,70,27.04,2001
+788,Ground Terminal T1,19,30,70,7.65,2006
+7432,Maintenance Shop,40,40,70,0.69,1985
+3407,Fuel intake Facility,30,30,70,2.29,1995
+8235,Central Utility Plant,44,50,70,12.73,1981
+7144,Power generation Facility,22,60,21,47.17,2003
+7093,Maintenance Shop,17,40,71,24.01,2008
+4437,Power generation Facility,25,60,70,32.58,2000
+3619,Fuel intake Facility,26,30,70,0.0,1999
+7160,Ground monitoring Station,23,30,70,3.9,2002
+9608,Receiver Station,11,30,70,19.25,2014
+4776,Radome Facility,29,30,70,5.0,1996
+6183,Admin Office,37,40,70,0.0,1988
+1818,Truck fill stand,13,30,70,17.14,2012
+8072,Ground monitoring Station,30,30,70,0.0,1995
+2260,Communication Facility,40,60,70,27.57,1985
+4291,Fuel Building,30,50,70,18.2,1995
+8026,Water Treatment Facility,2,30,70,33.94,2023
+990,Entry control point,30,30,70,0.0,1995
+137,Communication Facility,60,60,70,0.0,1965
+1682,Equipment Pad,20,20,70,0.0,2005
+9911,Ground Terminal T1,16,30,70,14.95,2009
+931,Receiver Station,4,30,70,24.56,2021
+8199,Receiver Station,30,30,70,0.72,1995
+3043,Ground monitoring Station,14,30,69,16.04,2011
+5997,Equipment Pad,20,20,93,0.0,2005
+5374,Equipment Pad,12,20,70,8.76,2013
+4180,Ground monitoring Station,10,30,70,14.84,2015
+8061,Heating - Cooling Plant,13,60,70,49.94,2012
+4220,Antenna support building,26,30,70,12.03,1999
+727,Substation,9,30,19,19.28,2016
+6687,Fuel Building,43,50,70,7.59,1982
+5339,Standby Generator,4,30,70,22.61,2021
+8650,Storage Facility,17,60,70,43.36,2008
+7301,Ops Facility T1,37,50,70,9.72,1988
+7175,Utility corridor,16,60,70,43.5,2009
+28,Dorm Facility,10,50,70,29.08,2015
+8530,Radome Facility,23,30,70,8.8,2002
+3762,Utility corridor,13,60,70,38.98,2012
+1575,Truck fill stand,19,30,70,6.84,2006
+8822,Ground monitoring Station,30,30,70,2.86,1995
+9103,Admin Office,20,40,70,24.02,2005
+5710,Entry control point,16,30,70,8.64,2009
+4221,Pump Station,32,40,70,2.13,1993
+438,Heating - Cooling Plant,5,60,70,56.3,2020
+5931,Power generation Facility,17,60,70,43.41,2008
+5233,Radome Facility,28,30,19,0.0,1997
+4694,Maintenance Shop,2,40,70,36.38,2023
+3966,Standby Generator,30,30,70,0.0,1995
+3853,Dorm Facility,12,50,70,43.53,2013
+6898,Communication Facility,16,60,69,29.23,2009
+5924,Ops Facility T1,32,50,70,25.04,1993
+4997,Ops Facility T1,32,50,70,25.24,1993
+1128,Entry control point,30,30,70,3.25,1995
+8266,Switching Station,13,30,87,5.27,2012
+2662,Dorm Facility,3,50,70,37.23,2022
+8009,Ground monitoring Station,23,30,70,7.78,2002
+108,Central Utility Plant,30,50,86,29.67,1995
+1302,Ground Terminal T1,25,30,70,5.56,2000
+9550,Dorm Facility,20,50,71,26.97,2005
+8818,UPS Building,5,50,70,51.05,2020
+3936,Maintenance Shop,37,40,70,0.0,1988
+1969,Antenna support building,30,30,70,0.0,1995
+6960,Receiver Station,25,30,6,7.41,2000
+4003,Water Treatment Facility,30,30,70,0.0,1995
+2759,Switching Station,13,30,70,17.56,2012
+2331,Fuel Building,35,50,70,20.98,1990
+6219,Dorm Facility,26,50,70,19.0,1999
+4268,Standby Generator,22,30,70,8.63,2003
+9542,Antenna support building,29,30,70,0.0,1996
+2018,Heating - Cooling Plant,39,60,70,18.72,1986
+3283,Utility corridor,25,60,70,31.56,2000
+2205,Power generation Facility,13,60,71,42.87,2012
+62,Entry control point,23,30,70,17.1,2002
+8455,Utility corridor,60,60,70,10.19,1965
+2002,Radome Facility,18,30,70,4.16,2007
+5220,Communication Facility,24,60,70,43.76,2001
+3444,Ops Facility T1,44,50,70,3.18,1981
+6398,Receiver Station,13,30,69,15.45,2012
+5235,Power generation Facility,31,60,70,29.36,1994
+5952,UPS Building,11,50,70,38.22,2014
+2805,Heating - Cooling Plant,25,60,70,30.35,2000
+3615,Substation,27,30,71,5.52,1998
+5523,Heating - Cooling Plant,33,60,70,31.28,1992
+5441,Maintenance Shop,7,40,89,28.85,2018
+466,Substation,22,30,70,0.71,2003
+5305,Maintenance Shop,24,40,70,20.0,2001
+1161,Communication Facility,46,60,70,14.18,1979
+9213,Power generation Facility,34,60,99,33.67,1991
+3598,UPS Building,43,50,70,17.82,1982
+1243,Central Utility Plant,46,50,90,0.0,1979
+4743,Substation,30,30,70,0.0,1995
+2989,Maintenance Shop,36,40,70,2.87,1989
+7980,Communication Facility,40,60,69,17.81,1985
+3205,Water Treatment Facility,21,30,70,6.86,2004
+8912,Ops Facility T1,6,50,6,41.27,2019
+5835,Storage Facility,50,60,70,6.49,1975
+7194,Communication Facility,49,60,12,0.0,1976
+830,Dorm Facility,29,50,70,23.28,1996
+699,Ground monitoring Station,22,30,95,11.66,2003
+9752,Water Treatment Facility,20,30,70,5.99,2005
+2929,Dorm Facility,15,50,93,25.31,2010
+891,Central Utility Plant,15,50,70,42.51,2010
+3459,Water Treatment Facility,28,30,70,0.0,1997
+7058,Water Treatment Facility,30,30,70,0.21,1995
+3931,Heating - Cooling Plant,17,60,91,45.11,2008
+5230,Communication Facility,56,60,70,1.34,1969
+3240,Utility corridor,21,60,70,38.71,2004
+9416,Truck fill stand,20,30,70,10.98,2005
+9290,Ground monitoring Station,30,30,40,5.15,1995
+4181,UPS Building,17,50,70,35.37,2008
+9974,Dorm Facility,43,50,70,13.67,1982
+5645,Heating - Cooling Plant,53,60,70,8.11,1972
+8656,Central Utility Plant,30,50,70,16.76,1995
+1724,Central Utility Plant,10,50,70,43.56,2015
+8031,Fuel intake Facility,30,30,70,0.0,1995
+1177,Storage Facility,9,60,70,45.74,2016
+5842,Central Utility Plant,34,50,70,15.88,1991
+3006,Truck fill stand,30,30,70,0.0,1995
+4466,Antenna support building,9,30,70,24.78,2016
+3472,Heating - Cooling Plant,21,60,70,50.26,2004
+1293,Communication Facility,32,60,2,32.19,1993
+3396,Equipment Pad,20,20,70,1.02,2005
+6065,Ground Terminal T1,28,30,70,12.21,1997
+5018,Water Treatment Facility,30,30,70,0.0,1995
+6555,Dorm Facility,32,50,98,25.06,1993
+5134,Ground monitoring Station,30,30,70,0.0,1995
+9961,Antenna support building,18,30,70,8.06,2007
+2708,Equipment Pad,20,20,70,0.0,2005
+433,Ops Facility T1,45,50,70,9.85,1980
+2050,Entry control point,25,30,48,16.82,2000
+5682,Ground Terminal T1,16,30,13,22.78,2009
+2815,Radome Facility,30,30,70,1.1,1995
+7863,Heating - Cooling Plant,27,60,70,29.74,1998
+9805,Central Utility Plant,44,50,70,14.92,1981
+1359,Utility corridor,44,60,70,12.47,1981
+6646,Central Utility Plant,11,50,70,43.05,2014
+9443,Storage Facility,55,60,70,11.55,1970
+1536,Fuel Building,39,50,70,8.11,1986
+8319,Substation,4,30,70,21.89,2021
+3183,Pump Station,10,40,70,37.0,2015
+3586,Dorm Facility,20,50,70,31.25,2005
+1004,Fuel Building,20,50,70,29.72,2005
+9079,Fuel Farm,33,40,70,0.0,1992
+2584,Ground Terminal T1,27,30,70,5.93,1998
+4514,Maintenance Shop,32,40,70,7.0,1993
+2293,Substation,20,30,70,3.91,2005
+9396,Truck fill stand,23,30,70,4.47,2002
+3130,Central Utility Plant,22,50,70,21.95,2003
+3126,Central Utility Plant,35,50,92,13.98,1990
+4286,Data Center,26,40,70,12.73,1999
+8904,Receiver Station,24,30,1,0.0,2001
+5904,Ground monitoring Station,30,30,70,3.76,1995
+2272,UPS Building,44,50,70,4.06,1981
+3041,Water Treatment Facility,20,30,70,7.87,2005
+575,Truck fill stand,20,30,70,7.63,2005
+5723,Maintenance Shop,36,40,69,1.19,1989
+6210,Fuel Building,28,50,70,18.12,1997
+1741,Standby Generator,7,30,43,7.86,2018
+3904,Utility corridor,45,60,70,10.44,1980
+9409,Switching Station,23,30,70,9.22,2002
+3992,Antenna support building,9,30,70,16.59,2016
+1313,Truck fill stand,30,30,70,3.41,1995
+827,Maintenance Shop,21,40,70,23.85,2004
+5287,Fuel Farm,14,40,70,33.37,2011
+9433,Central Utility Plant,13,50,70,35.29,2012
+7322,Water Treatment Facility,30,30,70,0.0,1995
+6384,Substation,16,30,70,14.29,2009
+6038,Maintenance Shop,34,40,70,5.21,1991
+3267,Ops Facility T1,25,50,97,24.22,2000
+471,Admin Office,33,40,70,6.44,1992
+442,UPS Building,43,50,70,9.27,1982
+7787,Communication Facility,24,60,86,29.27,2001
+1926,Dorm Facility,26,50,70,19.42,1999
+1355,UPS Building,45,50,70,4.33,1980
+6657,Heating - Cooling Plant,53,60,70,2.28,1972
+5856,Ground monitoring Station,30,30,70,3.22,1995
+3422,Communication Facility,40,60,70,16.49,1985
+7592,Power generation Facility,22,60,70,40.86,2003
+1648,Substation,25,30,87,5.48,2000
+166,Storage Facility,29,60,70,30.56,1996
+6357,Ground monitoring Station,17,30,70,14.17,2008
+8035,Pump Station,22,40,70,19.73,2003
+6206,Equipment Pad,20,20,70,3.06,2005
+6176,UPS Building,49,50,70,7.18,1976
+3649,Ops Facility T1,43,50,70,11.74,1982
+2660,Storage Facility,19,60,70,45.5,2006
+4626,Pump Station,20,40,70,14.95,2005
+4180,Maintenance Shop,5,40,70,42.27,2020
+9029,Ops Facility T1,40,50,70,16.42,1985
+2930,Equipment Pad,20,20,70,9.84,2005
+6539,Ops Facility T1,19,50,70,34.53,2006
+5563,Fuel intake Facility,28,30,70,0.0,1997
+3019,Communication Facility,21,60,70,46.5,2004
+6729,Dorm Facility,31,50,86,14.93,1994
+3236,Central Utility Plant,35,50,70,16.34,1990
+142,Entry control point,16,30,70,16.28,2009
+6134,Entry control point,23,30,89,6.64,2002
+1135,Storage Facility,14,60,71,48.55,2011
+23,Power generation Facility,10,60,70,45.17,2015
+2990,Fuel Building,20,50,70,37.79,2005
+7739,Fuel Farm,37,40,39,5.35,1988
+9897,Maintenance Shop,25,40,70,19.68,2000
+6330,Fuel Building,37,50,70,22.44,1988
+8043,Standby Generator,10,30,70,9.99,2015
+1758,Antenna support building,28,30,70,6.09,1997
+8270,Data Center,32,40,70,12.21,1993
+7256,Water Treatment Facility,30,30,70,0.0,1995
+9635,Maintenance Shop,26,40,95,14.5,1999
+8085,Radome Facility,30,30,70,0.0,1995
+4580,UPS Building,37,50,70,19.87,1988
+5302,Heating - Cooling Plant,22,60,70,44.49,2003
+7754,Fuel Farm,5,40,70,31.34,2020
+1877,Admin Office,8,40,70,31.18,2017
+730,Central Utility Plant,30,50,70,18.1,1995
+5534,Fuel Farm,20,40,70,29.21,2005
+1004,Maintenance Shop,33,40,70,3.33,1992
+5998,Storage Facility,15,60,70,41.84,2010
+1562,Radome Facility,12,30,70,8.82,2013
+6892,Central Utility Plant,21,50,70,29.41,2004
+3206,Admin Office,36,40,70,4.86,1989
+384,Entry control point,30,30,70,6.19,1995
+2443,Fuel Farm,17,40,70,26.38,2008
+6865,Entry control point,21,30,70,4.24,2004
+8480,Standby Generator,10,30,71,17.38,2015
+7655,Admin Office,19,40,70,22.69,2006
+7637,Truck fill stand,30,30,70,2.66,1995
+5393,Ops Facility T1,10,50,70,41.47,2015
+8528,Maintenance Shop,29,40,70,12.37,1996
+3299,Radome Facility,30,30,70,1.41,1995
+5226,Fuel intake Facility,13,30,70,16.38,2012
+2489,Ops Facility T1,30,50,70,20.31,1995
+5007,Data Center,11,40,7,34.57,2014
+9298,UPS Building,9,50,70,43.27,2016
+2054,Maintenance Shop,16,40,70,21.28,2009
+8330,Pump Station,17,40,70,18.93,2008
+7288,Utility corridor,16,60,70,38.48,2009
+8331,Water Treatment Facility,15,30,70,9.33,2010
+27,Utility corridor,20,60,9,27.29,2005
+5657,Ground monitoring Station,16,30,70,16.06,2009
+1978,Utility corridor,20,60,70,45.65,2005
+1252,Substation,20,30,70,11.35,2005
+5831,Ground Terminal T1,17,30,70,15.21,2008
+4351,Heating - Cooling Plant,25,60,70,35.84,2000
+3616,Antenna support building,23,30,70,12.12,2002
+8042,Water Treatment Facility,20,30,70,12.94,2005
+3651,Standby Generator,29,30,70,0.0,1996
+1083,Ops Facility T1,6,50,70,40.23,2019
+4189,Maintenance Shop,37,40,70,11.47,1988
+763,Admin Office,10,40,70,32.61,2015
+3441,Fuel Building,36,50,97,21.11,1989
+1939,Equipment Pad,6,20,70,17.51,2019
+5232,Switching Station,24,30,70,9.84,2001
+8798,Truck fill stand,21,30,70,14.63,2004
+3255,Ops Facility T1,21,50,70,15.5,2004
+5361,Ground Terminal T1,19,30,70,9.32,2006
+2059,Antenna support building,7,30,70,31.86,2018
+8845,Standby Generator,14,30,48,16.51,2011
+5072,Maintenance Shop,36,40,70,0.0,1989
+4143,Ops Facility T1,32,50,70,26.76,1993
+8739,Admin Office,17,40,21,20.21,2008
+443,Fuel Building,28,50,70,15.75,1997
+7637,Dorm Facility,35,50,91,10.98,1990
+2259,Power generation Facility,21,60,70,38.53,2004
+2641,Substation,1,30,70,23.72,2024
+552,Antenna support building,20,30,70,11.11,2005
+6559,Truck fill stand,28,30,70,0.0,1997
+3408,Ground monitoring Station,25,30,19,7.46,2000
+9259,Communication Facility,20,60,70,44.94,2005
+635,Ground Terminal T1,18,30,71,8.68,2007
+7581,Fuel Building,45,50,5,5.93,1980
+8410,Storage Facility,20,60,70,40.63,2005
+4289,Ops Facility T1,41,50,70,10.38,1984
+2728,Standby Generator,25,30,71,0.91,2000
+4181,Central Utility Plant,28,50,70,18.91,1997
+2701,Entry control point,27,30,70,0.0,1998
+5509,Ground monitoring Station,20,30,70,14.47,2005
+7394,Truck fill stand,30,30,70,0.0,1995
+7109,Ground monitoring Station,28,30,37,7.69,1997
+8171,UPS Building,6,50,70,48.74,2019
+1118,Utility corridor,20,60,70,41.83,2005
+7445,Storage Facility,10,60,70,50.79,2015
+9729,Antenna support building,27,30,70,4.41,1998
+7629,Pump Station,31,40,70,5.27,1994
+9169,Maintenance Shop,35,40,70,0.0,1990
+7454,Data Center,38,40,70,5.24,1987
+7884,Ground monitoring Station,26,30,70,8.43,1999
+7611,Radome Facility,7,30,71,19.28,2018
+7535,Ground Terminal T1,30,30,20,1.59,1995
+947,Power generation Facility,28,60,70,34.55,1997
+6430,Truck fill stand,26,30,70,6.59,1999
+8119,Fuel Farm,28,40,70,14.48,1997
+7980,Substation,27,30,70,3.38,1998
+9532,Data Center,37,40,70,2.4,1988
+9900,Ops Facility T1,10,50,70,48.92,2015
+6688,Maintenance Shop,20,40,11,16.07,2005
+383,Ground Terminal T1,30,30,70,0.0,1995
+2369,Antenna support building,23,30,70,6.52,2002
+8116,Entry control point,30,30,70,0.0,1995
+6059,Dorm Facility,24,50,28,27.88,2001
+7980,Ops Facility T1,23,50,70,32.48,2002
+1882,Antenna support building,5,30,70,26.26,2020
+7985,Fuel intake Facility,30,30,70,7.79,1995
+5027,Heating - Cooling Plant,18,60,70,39.82,2007
+9035,Receiver Station,16,30,70,14.17,2009
+112,Fuel Farm,2,40,49,32.8,2023
+4580,Heating - Cooling Plant,12,60,70,43.98,2013
+5124,Truck fill stand,19,30,70,0.0,2006
+7940,Fuel Building,7,50,70,45.42,2018
+4565,Standby Generator,16,30,70,7.15,2009
+90,Standby Generator,30,30,70,2.26,1995
+4359,Maintenance Shop,34,40,70,8.42,1991
+3053,Maintenance Shop,17,40,70,22.03,2008
+8126,Dorm Facility,29,50,70,20.74,1996
+129,Communication Facility,43,60,70,15.57,1982
+8699,Maintenance Shop,27,40,70,14.31,1998
+4866,Maintenance Shop,34,40,99,0.0,1991
+3852,Equipment Pad,15,20,70,7.2,2010
+5788,Ground Terminal T1,29,30,4,4.79,1996
+5002,Ops Facility T1,43,50,70,9.04,1982
+487,Substation,30,30,70,0.0,1995
+2594,Antenna support building,30,30,70,5.16,1995
+2577,Truck fill stand,26,30,2,9.93,1999
+3998,Utility corridor,13,60,70,38.03,2012
+3899,Fuel Building,7,50,70,40.02,2018
+8244,Admin Office,8,40,70,35.57,2017
+9356,Substation,30,30,70,1.19,1995
+7065,Admin Office,3,40,70,33.44,2022
+5801,Fuel intake Facility,27,30,70,0.0,1998
+2553,Antenna support building,24,30,71,11.7,2001
+5982,Receiver Station,23,30,71,16.01,2002
+4881,Substation,30,30,70,1.41,1995
+8340,Maintenance Shop,26,40,70,10.18,1999
+3856,Power generation Facility,36,60,70,25.98,1989
+2634,Admin Office,20,40,70,20.71,2005
+1188,Fuel intake Facility,25,30,70,5.68,2000
+5958,Fuel Farm,21,40,17,13.73,2004
+2364,Ground Terminal T1,30,30,70,0.85,1995
+8062,Ground monitoring Station,28,30,70,0.0,1997
+6554,UPS Building,7,50,28,37.23,2018
+8542,Storage Facility,31,60,41,33.06,1994
+8350,Receiver Station,24,30,70,5.44,2001
+1707,Receiver Station,29,30,70,5.58,1996
+2262,Dorm Facility,43,50,70,5.67,1982
+956,Power generation Facility,27,60,70,38.77,1998
+4677,Antenna support building,20,30,70,8.24,2005
+4494,Standby Generator,6,30,70,29.34,2019
+2583,Utility corridor,24,60,70,40.89,2001
+7318,Fuel intake Facility,28,30,70,0.0,1997
+4966,Fuel Farm,19,40,70,17.28,2006
+5975,Ground monitoring Station,24,30,70,13.58,2001
+2043,Dorm Facility,19,50,70,33.37,2006
+6446,Fuel Farm,10,40,70,33.95,2015
+1150,Switching Station,13,30,70,19.91,2012
+6264,Power generation Facility,40,60,98,31.43,1985
+5865,Fuel Building,38,50,70,11.9,1987
+3786,Central Utility Plant,38,50,71,12.08,1987
+7016,Ground Terminal T1,30,30,70,0.0,1995
+4546,Water Treatment Facility,21,30,70,6.56,2004
+1768,Ground Terminal T1,30,30,70,7.9,1995
+6426,Dorm Facility,24,50,96,21.71,2001
+1513,Ops Facility T1,19,50,70,23.33,2006
+3493,Storage Facility,51,60,70,9.32,1974
+9363,Receiver Station,27,30,70,6.03,1998
+3940,Receiver Station,22,30,70,5.06,2003
+6013,Fuel intake Facility,28,30,70,0.0,1997
+4657,Utility corridor,57,60,70,0.0,1968
+3131,Storage Facility,18,60,70,43.94,2007
+7241,Ground monitoring Station,19,30,88,12.33,2006
+9009,Ops Facility T1,12,50,69,33.78,2013
+2994,Fuel intake Facility,13,30,70,11.6,2012
+5235,Antenna support building,22,30,70,13.07,2003
+9179,Truck fill stand,29,30,28,0.0,1996
+8189,Fuel intake Facility,19,30,70,14.66,2006
+5542,Fuel intake Facility,13,30,70,11.53,2012
+9849,Power generation Facility,21,60,70,35.4,2004
+183,Substation,30,30,70,11.3,1995
+6071,Pump Station,20,40,70,19.15,2005
+8376,Switching Station,30,30,70,0.0,1995
+4280,Central Utility Plant,1,50,70,50.66,2024
+9711,Pump Station,38,40,70,0.65,1987
+2966,Fuel intake Facility,30,30,70,0.0,1995
+6624,Heating - Cooling Plant,37,60,70,25.92,1988
+2582,Admin Office,23,40,70,17.67,2002
+5543,Antenna support building,30,30,70,3.18,1995
+286,Fuel Farm,22,40,70,17.66,2003
+67,Pump Station,24,40,70,15.45,2001
+5723,Equipment Pad,4,20,89,19.76,2021
+7820,Fuel Building,14,50,70,41.2,2011
+2383,Radome Facility,20,30,19,5.03,2005
+4142,UPS Building,26,50,70,20.3,1999
+5857,Water Treatment Facility,14,30,70,12.7,2011
+6203,Utility corridor,16,60,70,45.33,2009
+6823,Switching Station,25,30,70,0.34,2000
+1484,Ground monitoring Station,27,30,70,4.67,1998
+7290,Heating - Cooling Plant,18,60,70,37.38,2007
+5743,Heating - Cooling Plant,2,60,70,52.85,2023
+5143,Equipment Pad,5,20,44,8.54,2020
+1212,Heating - Cooling Plant,36,60,71,29.47,1989
+5929,Water Treatment Facility,26,30,69,0.0,1999
+4329,Maintenance Shop,35,40,70,0.29,1990
+6393,Fuel Farm,31,40,70,0.0,1994
+3557,Receiver Station,23,30,70,12.29,2002
+4244,Antenna support building,23,30,70,0.0,2002
+4696,Data Center,35,40,70,11.57,1990
+3655,Fuel Farm,4,40,90,42.15,2021
+1323,Dorm Facility,2,50,70,44.28,2023
+675,Radome Facility,27,30,70,0.86,1998
+7195,Storage Facility,48,60,70,6.35,1977
+9839,Pump Station,26,40,70,17.0,1999
+4030,Equipment Pad,20,20,70,5.69,2005
+176,Entry control point,20,30,70,10.7,2005
+3224,Water Treatment Facility,18,30,70,0.0,2007
+7187,Antenna support building,12,30,13,15.5,2013
+93,Central Utility Plant,26,50,70,23.92,1999
+6547,Ground monitoring Station,7,30,70,18.68,2018
+3547,Antenna support building,6,30,70,22.55,2019
+2966,Maintenance Shop,12,40,70,34.7,2013
+9653,Fuel intake Facility,28,30,70,0.0,1997
+7309,Antenna support building,7,30,70,28.05,2018
+5563,Standby Generator,30,30,70,3.77,1995
+9438,Fuel Farm,24,40,70,13.89,2001
+7024,Dorm Facility,49,50,69,3.61,1976
+1937,Water Treatment Facility,30,30,70,0.0,1995
+4416,Antenna support building,30,30,70,0.0,1995
+7073,Fuel Building,5,50,69,40.09,2020
+227,Radome Facility,29,30,70,0.0,1996
+4616,Power generation Facility,40,60,71,27.25,1985
+2606,Admin Office,18,40,70,12.97,2007
+2058,Power generation Facility,12,60,70,42.61,2013
+3509,Heating - Cooling Plant,36,60,70,26.86,1989
+4243,Radome Facility,21,30,70,0.0,2004
+6939,Heating - Cooling Plant,24,60,70,30.45,2001
+7114,Equipment Pad,9,20,2,7.81,2016
+3430,Radome Facility,4,30,70,26.6,2021
+8576,Fuel Farm,24,40,70,13.86,2001
+9886,Water Treatment Facility,24,30,70,3.99,2001
+1825,Entry control point,19,30,70,6.55,2006
+8293,Truck fill stand,29,30,70,8.4,1996
+3577,Equipment Pad,16,20,70,14.46,2009
+835,Dorm Facility,21,50,14,23.23,2004
+3910,Ops Facility T1,25,50,70,16.13,2000
+954,Radome Facility,20,30,70,7.69,2005
+5646,Admin Office,2,40,70,40.1,2023
+4231,Maintenance Shop,22,40,70,15.25,2003
+7485,Maintenance Shop,35,40,70,1.24,1990
+9859,Antenna support building,12,30,70,20.96,2013
+944,Receiver Station,23,30,70,14.01,2002
+8661,Ops Facility T1,31,50,70,9.47,1994
+587,Storage Facility,5,60,70,56.47,2020
+353,Radome Facility,22,30,70,12.48,2003
+1618,Dorm Facility,5,50,70,46.29,2020
+9813,Power generation Facility,31,60,70,25.87,1994
+3703,Fuel intake Facility,20,30,70,13.26,2005
+2383,Truck fill stand,30,30,70,0.0,1995
+5347,Standby Generator,30,30,70,3.8,1995
+7561,Utility corridor,37,60,70,19.98,1988
+2826,Pump Station,38,40,70,11.13,1987
+8002,Fuel intake Facility,30,30,8,2.26,1995
+4745,Fuel intake Facility,20,30,70,10.77,2005
+4637,Ops Facility T1,21,50,70,28.44,2004
+9677,Power generation Facility,28,60,69,42.59,1997
+8446,Ground monitoring Station,20,30,70,12.82,2005
+1200,Power generation Facility,30,60,70,34.36,1995
+3125,Dorm Facility,37,50,70,3.95,1988
+3459,Maintenance Shop,25,40,70,6.87,2000
+1758,Ops Facility T1,10,50,70,35.21,2015
+2028,Antenna support building,30,30,70,6.8,1995
+5598,Receiver Station,10,30,70,22.14,2015
+8292,Pump Station,34,40,70,0.0,1991
+2349,Data Center,15,40,70,29.98,2010
+7838,Heating - Cooling Plant,6,60,29,51.15,2019
+585,Central Utility Plant,49,50,70,7.37,1976
+6394,Standby Generator,28,30,70,0.0,1997
+653,Radome Facility,30,30,70,3.14,1995
+1999,Equipment Pad,20,20,70,0.0,2005
+2643,Storage Facility,52,60,27,10.33,1973
+6870,Pump Station,4,40,70,28.41,2021
+6981,Ops Facility T1,33,50,70,18.01,1992
+1466,Pump Station,12,40,70,31.11,2013
+6461,Substation,30,30,70,0.53,1995
+1603,Receiver Station,10,30,70,19.48,2015
+1843,Dorm Facility,49,50,10,0.0,1976
+2256,Central Utility Plant,28,50,70,29.53,1997
+3206,Maintenance Shop,24,40,70,13.55,2001
+90,Heating - Cooling Plant,20,60,70,47.21,2005
+4592,Equipment Pad,20,20,70,0.0,2005
+4900,Power generation Facility,23,60,70,29.68,2002
+9630,Pump Station,34,40,71,4.28,1991
+3097,Heating - Cooling Plant,38,60,70,23.42,1987
+7345,Admin Office,20,40,70,14.02,2005
+1392,Ground monitoring Station,30,30,70,2.59,1995
+7320,Fuel intake Facility,30,30,70,0.0,1995
+2168,Ground monitoring Station,13,30,70,20.18,2012
+629,Fuel intake Facility,28,30,70,8.56,1997
+3291,Fuel intake Facility,25,30,70,6.92,2000
+6949,Ground Terminal T1,1,30,70,30.26,2024
+7537,Entry control point,30,30,70,0.73,1995
+3035,Truck fill stand,30,30,70,0.0,1995
+7239,Ops Facility T1,49,50,69,3.32,1976
+6284,Substation,27,30,69,4.83,1998
+1991,Fuel Farm,25,40,47,20.27,2000
+9959,Equipment Pad,17,20,70,0.0,2008
+5647,Antenna support building,3,30,70,29.76,2022
+2158,Ground Terminal T1,14,30,70,16.13,2011
+1750,Power generation Facility,39,60,70,26.39,1986
+6590,Central Utility Plant,29,50,70,28.29,1996
+422,Receiver Station,30,30,70,0.84,1995
+6498,Standby Generator,27,30,70,0.0,1998
+9093,Fuel Building,7,50,70,40.66,2018
+1490,UPS Building,11,50,70,43.89,2014
+1464,Ops Facility T1,29,50,70,18.4,1996
+45,Ops Facility T1,34,50,86,11.57,1991
+5039,Dorm Facility,7,50,70,36.64,2018
+9725,Water Treatment Facility,30,30,70,4.91,1995
+5693,Substation,24,30,70,7.0,2001
+2758,Ground monitoring Station,4,30,70,28.6,2021
+4678,Central Utility Plant,45,50,70,8.67,1980
+5810,Substation,15,30,70,15.95,2010
+8678,Maintenance Shop,7,40,70,34.17,2018
+3068,Pump Station,28,40,22,16.83,1997
+6259,Receiver Station,28,30,70,5.67,1997
+720,Utility corridor,59,60,70,0.0,1966
+2244,Ops Facility T1,23,50,70,24.45,2002
+5467,Fuel intake Facility,23,30,70,3.85,2002
+4141,Ground monitoring Station,28,30,70,8.93,1997
+8697,Data Center,29,40,70,15.72,1996
+2917,Antenna support building,17,30,70,8.42,2008
+1912,Heating - Cooling Plant,56,60,70,5.02,1969
+5977,Entry control point,26,30,70,0.0,1999
+9857,Storage Facility,22,60,70,41.88,2003
+8884,Dorm Facility,25,50,70,29.34,2000
+2984,Standby Generator,17,30,70,12.17,2008
+7348,Heating - Cooling Plant,34,60,70,27.15,1991
