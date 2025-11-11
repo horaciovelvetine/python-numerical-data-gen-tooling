@@ -39,3 +39,38 @@ def get_random_facility_data_nums(facility_title: str) -> Facility:
         time_series=time_series,
         estimated_remaining_service_life=estimated_remaining_service_life,
     )
+
+
+if __name__ == "__main__":
+    # Generate random facility data for a Data Center
+    facility_data = get_random_facility_data_nums("Data Center")
+    
+    # Print the results
+    print("\n" + "="*60)
+    print("Generated Facility Data")
+    print("="*60)
+    
+    facility_dict = facility_data.to_dict()
+    
+    print(f"\nFacility Title: {facility_dict['title']}")
+    print(f"Facility Key: {facility_dict['facility_key']}")
+    print(f"Expected Service Life: {facility_dict['expected_service_life']} years")
+    print(f"Age: {facility_dict['age_in_years']} years")
+    print(f"Condition Index: {facility_dict['condition_index']:.4f}")
+    print(f"Estimated Remaining Service Life: {facility_dict['estimated_remaining_service_life']:.2f} years")
+    
+    # Print time series data
+    time_series = facility_dict['time_series']
+    print(f"\nTime Series Data:")
+    
+    if 'year' in time_series and time_series['year']:
+        print(f"\n  Yearly Condition History:")
+        for year, condition in sorted(time_series['year'].items()):
+            print(f"    Year {year}: {condition:.4f}")
+    
+    if 'months' in time_series and time_series['months']:
+        print(f"\n  Monthly Condition History:")
+        for month, condition in sorted(time_series['months'].items()):
+            print(f"    Month {month}: {condition:.4f}")
+    
+    print("\n" + "="*60 + "\n")

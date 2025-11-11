@@ -18,9 +18,6 @@ def generate_condition_time_series(
 
     condition_history = {"year": {}, "months": {}}
 
-    # Set the current month's value to the actual current_condition_index
-    condition_history["months"][age_in_months] = current_condition_index
-
     # Calculate up to last 10 years of historical yearly condition
     # estimates (or as far back as possible)
     max_years = min(10, (age_in_months // 12) + 1)
@@ -36,5 +33,20 @@ def generate_condition_time_series(
             # If months_elapsed is 0 (i.e., "now"), just use the current condition index
             condition_past = current_condition_index
         condition_history["year"][years_ago] = condition_past
+
+    # Calculate monthly condition history for the same period
+    # Generate monthly values for up to the last 10 years (120 months) or as far back as possible
+    max_months = min(120, age_in_months + 1)
+    for i in range(max_months):
+        month_ago = age_in_months - i
+        months_elapsed = i
+        # "Undo" the compounded decay for the elapsed months between then and now
+        if months_elapsed > 0:
+            # Estimate past condition using exponential decay reversal
+            condition_past = current_condition_index / ((1 - R) ** months_elapsed)
+        else:
+            # If months_elapsed is 0 (i.e., "now"), just use the current condition index
+            condition_past = current_condition_index
+        condition_history["months"][month_ago] = condition_past
 
     return condition_history
